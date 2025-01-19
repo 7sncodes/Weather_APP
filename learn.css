@@ -32,7 +32,7 @@
     .search input{
         border: 0;
         outline: 0;
-        background: whitesmoke
+        background: whitesmoke;
         color: #222;
         padding: 10px 25px;
         height: 30px;
@@ -42,7 +42,7 @@
            }
            /* this is the styling for the search button of the webpage*/
            .search button {
-        background: whitesmoke
+        background: whitesmoke;
                color: #222;
                border: 0;
                outline: 0;
