@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sam Weather check</title>
+    <link rel="stylesheet" href="learn.css" />
+  </head>
+  <body>
+    <!-- this is background of webpage -->
+
+    <div class="container">
+      <!-- this is search bar -->
+      <div class="search">
+        <input
+          type="text"
+          class="search-input"
+          placeholder="Enter city name"
+          spellcheck="false"
+        />
+        <!-- this is button for search -->
+        <button class="button" type="submit">
+          <!-- search button -->
+         <img src="../learn/images/search.png " />
+        </button>
+      </div>
+
+      <!-- this is weather information -->
+      <div class="weather">
+        <img
+          src="../Learn/images/clouds.png"
+          class="weather-icon"
+          alt="image"
+        />
+
+        <h1 class="temp">30°c</h1>
+        <h2 class="city">California</h2>
+
+        <div class="weather-details">
+          <div class="col"> 
+            <img src="../learn/images/humidity.png" alt="image" />
+            <div class="col-text">
+              <p class="humidity">50%</p>
+              <p class="humidity-text">Humidity</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <img src="../Learn/images/wind.png" alt="image" />
+          <div class="col-text">
+            <p class="wind">20 km/h</p>
+            <p class="wind-text">Wind Speed</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./learn.js"></script>
+  </body>
+</html>
